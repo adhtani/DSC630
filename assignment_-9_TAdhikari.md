@@ -10,7 +10,8 @@ The ensemble makes an error just in case k = (n+1)/2 or more models
 simultaneously. Since we are calculting probability of model ensemble
 making incorrect predictions, we are not looking for probability of
 success, instead we are interested in probability of failure. Thus
-*q* = *ϵ*  
+*q* = *ϵ*
+  
 The formula for exact k making an error is:  
 $P(K=k) = \\binom{n}{k}\\epsilon^k(1-\\epsilon)^{(n-k)}$  
 The formula for probability of error is:  
